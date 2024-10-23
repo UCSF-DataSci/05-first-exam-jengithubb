@@ -1,5 +1,4 @@
 #!/bin/zsh
-echo "hello"
 # create the main dirctory 
 mkdir -p bioinformatics_project
 
@@ -24,7 +23,7 @@ touch bioinformatics_project/README.md
 #add a brief description into README file
 echo "Bioinformatics project: " >> bioinformatics_project/README.md
 echo "In this project's repository, the big structure looks like below:
-
+'''
 Jennifer's repository/
 ├── bioinformatics
 │   ├── README.md
@@ -37,7 +36,8 @@ Jennifer's repository/
 │   ├── results/
 │   │   ├── cutsite_summary.txt
 ├── setup_project.sh
-└── README.md" >> bioinformatics_project/README.md
+└── README.md
+'''" >> bioinformatics_project/README.md
 echo "" >> bioinformatics_project/README.md
 
 echo " -  The generate_fasta.py file generate random DNA sequence base pairs 1 million times and store it in random_sequence.fasta file" >> bioinformatics_project/README.md
